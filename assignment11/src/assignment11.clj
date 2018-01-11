@@ -5,7 +5,8 @@
 (def classes #{1 2 3})
 (def bin-count 5)
 (def bins (set (range bin-count)))
-(def features (set (range 16)))
+(def feature-count 16)
+(def features (set (range feature-count)))
 
 (defn read-data
   [path]
